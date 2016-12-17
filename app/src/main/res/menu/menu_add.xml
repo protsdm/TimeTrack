@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.timetrack.AddActivity">
+    <item
+        android:id="@+id/action_name"
+        android:icon="@drawable/ic_action_attach_image"
+        android:onClick="onAddImage"
+        app:showAsAction="always"
+        android:orderInCategory="0"
+        android:title="Attach image" />
+</menu>
